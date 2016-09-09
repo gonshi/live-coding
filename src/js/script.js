@@ -53,6 +53,8 @@ function render(t) {
     */
 
     // 描画
+    /*
 	renderer.render(scene, camera);
+    */
 }
 render();
