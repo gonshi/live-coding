@@ -8,10 +8,6 @@ gulp.task 'jade', () ->
         config.path.jade + '**/!(_)*.jade'
     ])
         .pipe($.plumber())
-        .pipe($.data((file) ->
-            # console.log file.path, config.path.jade + 'config.json'
-            return require(root + 'config.json')
-        ))
         .pipe($.jade({
             pretty: true
             basedir: config.path.jade

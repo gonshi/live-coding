@@ -40,7 +40,7 @@ config =
         "scss"        : src + "scss/#{typeStr}/"
         "coffee"      : src + "coffee/#{typeStr}/"
         "js_src"      : src + "js/#{typeStr}/"
-        "jade"        : src + "jade/#{typeStr}/"
+        "jade"        : src + "html/#{typeStr}/"
         "sprite"      : src + "sprite/#{typeStr}/"
         "fonts"       : src + "fonts/#{typeStr}/"
 
