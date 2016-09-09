@@ -3,7 +3,6 @@ var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHei
 
 // cameraの位置
 /*
-camera.position.y = 1.5;
 camera.position.z = 5;
 */
 
